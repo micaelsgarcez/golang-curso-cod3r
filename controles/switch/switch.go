@@ -5,10 +5,25 @@ import (
 	"time"
 )
 
+func tipo(i interface{}) string {
+	switch i.(type) {
+	case int: 
+		return "inteiro"
+	case float32, float64: 
+		return "real"
+	case string: 
+		return "string"
+	case func(): 
+		return "função"
+	default: 
+		return "não sei"
+	}
+}
+
 func notaParaConceito(n float64) string {
 	var nota = int(n)
 	switch {
-		case nota >= 9 && nota < 11:
+		case nota >= 9 && nota <= 10:
 			return "A"
 		case nota >= 7 && nota < 9:
 			return "B"
@@ -37,4 +52,12 @@ func main() {
 	default:
 		fmt.Println("Boa noite!")
 	}
+
+	fmt.Println(tipo(2.3))
+	fmt.Println(tipo(1))
+	fmt.Println(tipo("Opa"))
+	fmt.Println(tipo(func ()  {
+		
+	}))
+	fmt.Println(tipo(time.Now()))
 }
