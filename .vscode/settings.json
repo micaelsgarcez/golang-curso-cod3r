@@ -1,3 +1,10 @@
 {
-  "cursor.cpp.disabledLanguages": ["go"]
+  "cursor.cpp.disabledLanguages": ["go"],
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnSave": true
+  },
+  "gopls": {
+    "formatting.gofumpt": true
+  }
 }
