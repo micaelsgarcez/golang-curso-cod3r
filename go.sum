@@ -4,3 +4,5 @@ github.com/cod3rcursos/goarea v0.0.0-20171120131752-3ca6d30ad3a4 h1:GSQlQsi+ZmWV
 github.com/cod3rcursos/goarea v0.0.0-20171120131752-3ca6d30ad3a4/go.mod h1:FFcHesaYkNxmqsZRjsBqkPBepRcor+LJbBz5jURhwIA=
 github.com/go-sql-driver/mysql v1.9.3 h1:U/N249h2WzJ3Ukj8SowVFjdtZKfu9vlLZxjPXV1aweo=
 github.com/go-sql-driver/mysql v1.9.3/go.mod h1:qn46aNg1333BRMNU69Lq93t8du/dwxI64Gl8i5p1WMU=
+github.com/micaelsgarcez/golang-html v0.0.0-20250922113322-01fcd8a67fbe h1:u7vqtFDAShKlnuSI+XluqTS2g5P8Qz/Nkgp4UdG0KOw=
+github.com/micaelsgarcez/golang-html v0.0.0-20250922113322-01fcd8a67fbe/go.mod h1:297toaF40GVjdDEu8u5e7caYDh5p0VcW+ckFNwVQiB0=
